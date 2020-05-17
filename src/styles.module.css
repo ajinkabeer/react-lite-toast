@@ -1,0 +1,196 @@
+.toastcontainer {
+	font-size: 14px;
+	box-sizing: border-box;
+	position: fixed;
+	z-index: 999999;
+}
+
+.toast {
+	background: #fff;
+	transition: .3s ease;
+	position: relative;
+	pointer-events: auto;
+	overflow: hidden;
+	width: 450px;
+	max-height: 40px;
+	border-radius: 5px 5px 5px 5px;
+	color: #000;
+	opacity: .9;
+	background-position: 15px;
+	background-repeat: no-repeat;
+}
+
+.toast:hover {
+	opacity: .8;
+	cursor: pointer;
+}
+
+.toasttitle {
+	font-weight: 700;
+	font-size: 16px;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 6px;
+	width: 300px;
+	height: 18px;
+}
+
+.toastmessage {
+	margin: 0;
+	text-align: left;
+	height: 18px;
+	margin-left: -1px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.toastimage {
+	float: left;
+	margin-right: 15px;
+}
+
+.toastimage img {
+	width: 25px;
+	height: 25px;
+}
+
+.snack {
+	height: 50px;
+	width: 275px;
+	color: #fff;
+	padding: 10px 15px 15px 10px;
+}
+
+.toastcontainer .closebutton {
+	position: relative;
+	right: -.3em;
+	top: -.3em;
+	float: right;
+	width: 4%;
+	cursor: pointer;
+}
+
+.toastcontainer .closebutton:hover {
+	transform: scale(.8);
+}
+
+.topright {
+	top: 17px;
+	right: 12px;
+	transition: transform .6s ease-in-out;
+	animation: animatefromright 3s;
+}
+
+.bottomright {
+	bottom: 17px;
+	right: 12px;
+	transition: transform .6s ease-in-out;
+	animation: animatefromright 3s;
+}
+
+.topleft {
+	top: 17px;
+	left: 12px;
+	transition: transform .6s ease-in-out;
+	animation: animatefromleft 3s;
+}
+
+.bottomleft {
+	bottom: 17px;
+	left: 12px;
+	transition: transform .6s ease-in-out;
+	animation: animatefromleft 3s;
+}
+
+.bottomup {
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: transform .6s ease-in-out;
+	animation: animatefrombottom 3s;
+}
+
+.topdown {
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	transition: transform .6s ease-in-out;
+	animation: animatefromtop 3s;
+}
+
+@keyframes animatefromright {
+	0% {
+		transform: translateX(100%);
+	}
+
+	25% {
+		transform: translateX(0%);
+	}
+
+	50% {
+		transform: translateX(0%);
+	}
+
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+@keyframes animatefromleft {
+	0% {
+		transform: translateX(-100%);
+	}
+
+	25% {
+		transform: translateX(0%);
+	}
+
+	50% {
+		transform: translateX(0%);
+	}
+
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+@keyframes animatefrombottom {
+	0% {
+		transform: translateY(100%);
+	}
+
+	25% {
+		transform: translateY(-30%);
+	}
+
+	50% {
+		transform: translateY(-30%);
+	}
+
+	100% {
+		transform: translateY(100%);
+	}
+}
+
+@keyframes animatefromtop {
+	0% {
+		transform: translateY(-100%);
+	}
+
+	25% {
+		transform: translateY(30%);
+	}
+
+	50% {
+		transform: translateY(30%);
+	}
+
+	100% {
+		transform: translateY(-100%);
+	}
+}
