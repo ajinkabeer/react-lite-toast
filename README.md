@@ -7,6 +7,15 @@
 A minimal toast notification for react with an unpacked size of 33.1 kB 🚀.
 
 
+## UI
+<div align="center">
+
+![Alt text](assets/success.PNG "success") ![Alt text](assets/error.PNG "error")
+![Alt text](assets/warning.PNG "error")  ![Alt text](assets/info.PNG "error")
+
+</div>
+
+
 ## Install
 
 ```bash
