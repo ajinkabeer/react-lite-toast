@@ -13,16 +13,21 @@ npm install --save react-lite-toast
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
-
-import MyComponent from 'react-lite-toast'
+import React, { useState } from 'react'
+import { Toast } from 'react-lite-toast'
 import 'react-lite-toast/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  const [toast, setToast] = useState(false)
+  return (
+    <div>
+      <button onClick={() => setToast(!toast)}>Click me</button>
+      {toast && <Toast type="success" title="Completed" description="Flippity flip" position="bottomup" />}
+    </div>
+  )
 }
+
+export default App
 ```
 
 ## License
