@@ -1,13 +1,12 @@
 <div align="center">
 
 # React-lite-toast [![NPM](https://img.shields.io/npm/v/react-lite-toast.svg)](https://www.npmjs.com/package/react-lite-toast) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+![Alt text](assets/bundleSize.PNG "bundle-size") 
 
 </div>
 
 A minimal toast notification for react with a bundled size of 3 kB ⚡.
- 
-![Alt text](assets/bundleSize.PNG "bundle-size") 
- 
+  
 ## UI
 <div align="center">
 
