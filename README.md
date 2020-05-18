@@ -4,9 +4,10 @@
 
 </div>
 
-A minimal toast notification for react with an unpacked size of 33.1 kB 🚀.
-
-
+A minimal toast notification for react with a bundled size of 3 kB ⚡.
+ 
+![Alt text](assets/bundleSize.PNG "bundle-size") 
+ 
 ## UI
 <div align="center">
 
@@ -44,6 +45,43 @@ const App = () => {
 }
 
 export default App
+```
+or
+
+```tsx
+import React, { Component } from "react";
+import { Toast } from "react-lite-toast";
+import "react-lite-toast/dist/index.css";
+
+class App extends Component {
+  state = {
+    toast: false
+  };
+
+  setToast = () => {
+    this.setState(prevState => ({
+      toast: !prevState.toast
+    }));
+  };
+
+  render() {
+    return (
+      <>
+        <button onClick={() => this.setToast()}>Click me</button>
+        {this.state.toast && (
+          <Toast
+            type="success"
+            title="Completed"
+            description="Flippity flip"
+            position="bottomup"
+          />
+        )}
+      </>
+    );
+  }
+}
+
+export default App;
 ```
 
 ## Props
