@@ -99,7 +99,10 @@ export default App;
 
 - [Ajin Kabeer](https://github.com/ajinkabeer)
 
+## Inspiration
 
+- [Chakra-UI Toast](https://chakra-ui.com/toast)
+- [LogRocket Blog](https://blog.logrocket.com/how-to-create-a-custom-toast-component-with-react/)
 
 ## License
 
