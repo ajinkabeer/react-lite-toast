@@ -22,7 +22,7 @@ interface ToastProps {
 }
 
 
-export const Toast = ({ type, title, description, position, duration }: Props) => {
+export const Toast = ({ type, title, description, position, duration }: Props): JSX.Element => {
   const [toast, setToast] = useState<ToastProps[]>([])
 
   useEffect(() => {

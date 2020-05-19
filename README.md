@@ -101,6 +101,10 @@ export default App;
 
 - [Ajin Kabeer](https://github.com/ajinkabeer)
 
+## Release
+
+You can view the latest release note [here](https://github.com/ajinkabeer/react-lite-toast/releases)
+
 ## Inspiration
 
 - [Chakra-UI Toast](https://chakra-ui.com/toast)
