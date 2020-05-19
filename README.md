@@ -1,6 +1,6 @@
 <div align="center">
 
-# React-lite-toast [![NPM](https://img.shields.io/npm/v/react-lite-toast.svg)](https://www.npmjs.com/package/react-lite-toast) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+# react-lite-toast [![NPM](https://img.shields.io/npm/v/react-lite-toast.svg)](https://www.npmjs.com/package/react-lite-toast) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 ![Alt text](assets/bundleSize.PNG "bundle-size") 
 
 </div>
@@ -40,7 +40,7 @@ const App = () => {
   return (
     <div>
       <button onClick={() => setToast(!toast)}>Click me</button>
-      {toast && <Toast type="success" title="Completed" description="Flippity flip" position="bottomup" />}
+      {toast && <Toast type="success" title="Completed" description="Flippity flip" position="bottomup" duration={1500} />}
     </div>
   )
 }
@@ -75,6 +75,7 @@ class App extends Component {
             title="Completed"
             description="Flippity flip"
             position="bottomup"
+            duration={1500}
           />
         )}
       </>
@@ -91,9 +92,10 @@ export default App;
 | ---------------------------------- | ------------------------------------------------------------------ |
 | type `string`                      | Required. One of `success`, `error`, `warning`, `info`             |
 | title `string`                     | Required. The title of the toast notifaction.                      |
-| description `string `              | Required: The content of the toast notification                    |
-| position: `string    `             | Required. One of `bottomup`, `topdown`, `topleft`, `topright`,`bottomleft`, `bottomright`          |
- 
+| description `string`               | Required: The content of the toast notification                    |
+| position: `string`                 | Required. One of `bottomup`, `topdown`, `topleft`, `topright`,`bottomleft`, `bottomright`          |
+| duration `number`                  | Required: The total time duration of toast. i.e, 1500              |
+
 
 ## Contributors
 
