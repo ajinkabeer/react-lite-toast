@@ -7,7 +7,7 @@
 
 .toast {
 	background: #fff;
-	transition: .3s ease;
+	transition:  ease;
 	position: relative;
 	pointer-events: auto;
 	overflow: hidden;
@@ -79,28 +79,35 @@
 	top: 17px;
 	right: 12px;
 	transition: transform .6s ease-in-out;
-	animation: animatefromright 3s;
+	animation: animatefromright;
+	
 }
 
 .bottomright {
 	bottom: 17px;
 	right: 12px;
 	transition: transform .6s ease-in-out;
-	animation: animatefromright 3s;
+	animation: animatefromright;
+	
+
 }
 
 .topleft {
 	top: 17px;
 	left: 12px;
 	transition: transform .6s ease-in-out;
-	animation: animatefromleft 3s;
+	animation: animatefromleft;
+	
+
 }
 
 .bottomleft {
 	bottom: 17px;
 	left: 12px;
 	transition: transform .6s ease-in-out;
-	animation: animatefromleft 3s;
+	animation: animatefromleft;
+	
+
 }
 
 .bottomup {
@@ -110,7 +117,9 @@
 	right: 0;
 	bottom: 0;
 	transition: transform .6s ease-in-out;
-	animation: animatefrombottom 3s;
+	animation: animatefrombottom;
+	
+
 }
 
 .topdown {
@@ -120,7 +129,9 @@
 	right: 0;
 	top: 0;
 	transition: transform .6s ease-in-out;
-	animation: animatefromtop 3s;
+	animation: animatefromtop;
+	
+
 }
 
 @keyframes animatefromright {

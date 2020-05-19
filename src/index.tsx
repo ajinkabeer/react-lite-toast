@@ -11,6 +11,7 @@ type Props = {
   title: string,
   description: string,
   position: string,
+  duration: number
 }
 
 interface ToastProps {
@@ -21,7 +22,7 @@ interface ToastProps {
 }
 
 
-export const Toast = ({ type, title, description, position }: Props) => {
+export const Toast = ({ type, title, description, position, duration }: Props) => {
   const [toast, setToast] = useState<ToastProps[]>([])
 
   useEffect(() => {
@@ -34,7 +35,7 @@ export const Toast = ({ type, title, description, position }: Props) => {
       if (toast.length) {
         closeToast(toast[0].title);
       }
-    }, 2000);
+    }, duration);
     return () => {
       clearInterval(interval);
     }
@@ -70,13 +71,13 @@ export const Toast = ({ type, title, description, position }: Props) => {
 
   return (
 
-    <div className={`${Style.toastcontainer}  ${Style[position]}`}>
+    <div className={`${Style.toastcontainer}  ${Style[position]}`} style={{ animationDuration: `${duration + 500 + 'ms'}` }}>
       {
         toast.map((toast, i) =>
           <div
             key={i}
             className={`${Style.toast} ${Style.snack}  ${Style[position]}`}
-            style={{ backgroundColor: toast.backgroundColor }}
+            style={{ backgroundColor: toast.backgroundColor, animationDuration: `${duration + 500 + 'ms'}` }}
           >
             <img className={`${Style.closebutton}`} src={close} alt="close-button" onClick={() => closeToast(toast.title)} />
             <div className={`${Style.toastimage}`}>
