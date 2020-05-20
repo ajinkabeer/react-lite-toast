@@ -77,7 +77,7 @@ export const Toast = ({ type, title, description, position, duration, closeButto
         toast.map((toast, i) =>
           <div
             key={i}
-            className={`${Style.toast} ${Style.toastsnack}  ${Style[position]}`}
+            className={`${Style.toast} ${Style.toastsupersnack}  ${Style[position]}`}
             style={{ backgroundColor: toast.backgroundColor, animationDuration: `${duration + 500 + 'ms'}` }}
           >
             {closeButton && <img className={`${Style.toastclosebutton}`} src={close} alt="close-button" onClick={() => closeToast(toast.title)} />}

@@ -55,14 +55,14 @@
 	height: 25px;
 }
 
-._styles-module__toastsnack__1NQVY {
+._styles-module__toastsupersnack__3gWOV {
 	height: 50px;
 	width: 275px;
 	color: #fff;
  	padding-top:10px;
 	padding-right: 15px;
 	padding-left: 15px;
-	padding-bottom: 30px;
+	padding-bottom: 3rem !important;
 }
 
 ._styles-module__toastcontainer__15L_e ._styles-module__toastclosebutton__3RsX7 {
