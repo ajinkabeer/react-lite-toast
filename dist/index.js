@@ -31,7 +31,7 @@ var warning = require("./warning~vKUgrCLp.svg");
 
 var close = require("./close~MmoXfehv.svg");
 
-var Style = {"toastcontainer":"_styles-module__toastcontainer__15L_e","toast":"_styles-module__toast__3KnTL","toasttitle":"_styles-module__toasttitle__2xY3H","toastmessage":"_styles-module__toastmessage__2aPZH","toastimage":"_styles-module__toastimage__MQjN0","snack":"_styles-module__snack__298KZ","closebutton":"_styles-module__closebutton__1bDA9","topright":"_styles-module__topright__18X5b","animatefromright":"_styles-module__animatefromright__2Fqj2","bottomright":"_styles-module__bottomright__S5YOC","topleft":"_styles-module__topleft__3xLQ5","animatefromleft":"_styles-module__animatefromleft__2Gun4","bottomleft":"_styles-module__bottomleft__rqvi6","bottomup":"_styles-module__bottomup__2V_fh","animatefrombottom":"_styles-module__animatefrombottom__qwi-u","topdown":"_styles-module__topdown__1O4DU","animatefromtop":"_styles-module__animatefromtop__Smj_t"};
+var Style = {"toastcontainer":"_styles-module__toastcontainer__15L_e","toast":"_styles-module__toast__3KnTL","toasttitle":"_styles-module__toasttitle__2xY3H","toastdescription":"_styles-module__toastdescription__26QLJ","toastimage":"_styles-module__toastimage__MQjN0","toastsnack":"_styles-module__toastsnack__1NQVY","toastclosebutton":"_styles-module__toastclosebutton__3RsX7","topright":"_styles-module__topright__18X5b","animatefromright":"_styles-module__animatefromright__2Fqj2","bottomright":"_styles-module__bottomright__S5YOC","topleft":"_styles-module__topleft__3xLQ5","animatefromleft":"_styles-module__animatefromleft__2Gun4","bottomleft":"_styles-module__bottomleft__rqvi6","bottomup":"_styles-module__bottomup__2V_fh","animatefrombottom":"_styles-module__animatefrombottom__qwi-u","topdown":"_styles-module__topdown__1O4DU","animatefromtop":"_styles-module__animatefromtop__Smj_t"};
 
 var Toast = function Toast(_ref) {
   var type = _ref.type,
@@ -114,13 +114,13 @@ var Toast = function Toast(_ref) {
   }, toast.map(function (toast, i) {
     return React__default.createElement("div", {
       key: i,
-      className: Style.toast + " " + Style.snack + "  " + Style[position],
+      className: Style.toast + " " + Style.toastsnack + "  " + Style[position],
       style: {
         backgroundColor: toast.backgroundColor,
         animationDuration: "" + (duration + 500 + 'ms')
       }
     }, React__default.createElement("img", {
-      className: "" + Style.closebutton,
+      className: "" + Style.toastclosebutton,
       src: close,
       alt: "close-button",
       onClick: function onClick() {
@@ -134,7 +134,7 @@ var Toast = function Toast(_ref) {
     })), React__default.createElement("div", null, React__default.createElement("p", {
       className: "" + Style.toasttitle
     }, toast.title), React__default.createElement("p", {
-      className: "" + Style.toastmessage
+      className: "" + Style.toastdescription
     }, toast.description)));
   }));
 };

@@ -35,7 +35,7 @@
 	height: 18px;
 }
 
-._styles-module__toastmessage__2aPZH {
+._styles-module__toastdescription__26QLJ {
 	margin: 0;
 	text-align: left;
 	height: 18px;
@@ -55,14 +55,14 @@
 	height: 25px;
 }
 
-._styles-module__snack__298KZ {
+._styles-module__toastsnack__1NQVY {
 	height: 50px;
 	width: 275px;
 	color: #fff;
 	padding: 10px 15px 15px 10px;
 }
 
-._styles-module__toastcontainer__15L_e ._styles-module__closebutton__1bDA9 {
+._styles-module__toastcontainer__15L_e ._styles-module__toastclosebutton__3RsX7 {
 	position: relative;
 	right: -.3em;
 	top: -.3em;
@@ -71,7 +71,7 @@
 	cursor: pointer;
 }
 
-._styles-module__toastcontainer__15L_e ._styles-module__closebutton__1bDA9:hover {
+._styles-module__toastcontainer__15L_e ._styles-module__toastclosebutton__3RsX7:hover {
 	transform: scale(.8);
 }
 

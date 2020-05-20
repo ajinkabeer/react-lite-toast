@@ -35,7 +35,7 @@
 	height: 18px;
 }
 
-.toastmessage {
+.toastdescription {
 	margin: 0;
 	text-align: left;
 	height: 18px;
@@ -55,14 +55,14 @@
 	height: 25px;
 }
 
-.snack {
+.toastsnack {
 	height: 50px;
 	width: 275px;
 	color: #fff;
 	padding: 10px 15px 15px 10px;
 }
 
-.toastcontainer .closebutton {
+.toastcontainer .toastclosebutton {
 	position: relative;
 	right: -.3em;
 	top: -.3em;
@@ -71,7 +71,7 @@
 	cursor: pointer;
 }
 
-.toastcontainer .closebutton:hover {
+.toastcontainer .toastclosebutton:hover {
 	transform: scale(.8);
 }
 

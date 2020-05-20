@@ -76,16 +76,16 @@ export const Toast = ({ type, title, description, position, duration }: Props): 
         toast.map((toast, i) =>
           <div
             key={i}
-            className={`${Style.toast} ${Style.snack}  ${Style[position]}`}
+            className={`${Style.toast} ${Style.toastsnack}  ${Style[position]}`}
             style={{ backgroundColor: toast.backgroundColor, animationDuration: `${duration + 500 + 'ms'}` }}
           >
-            <img className={`${Style.closebutton}`} src={close} alt="close-button" onClick={() => closeToast(toast.title)} />
+            <img className={`${Style.toastclosebutton}`} src={close} alt="close-button" onClick={() => closeToast(toast.title)} />
             <div className={`${Style.toastimage}`}>
               <img src={toast.icon} alt="" />
             </div>
             <div>
               <p className={`${Style.toasttitle}`}>{toast.title}</p>
-              <p className={`${Style.toastmessage}`}>
+              <p className={`${Style.toastdescription}`}>
                 {toast.description}
               </p>
             </div>
@@ -96,5 +96,6 @@ export const Toast = ({ type, title, description, position, duration }: Props): 
 
   );
 }
+
 
 
