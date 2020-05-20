@@ -17,7 +17,8 @@ const Toast = ({
   title,
   description,
   position,
-  duration
+  duration,
+  closeButton: _closeButton = false
 }) => {
   const [toast, setToast] = useState([]);
   useEffect(() => {
@@ -92,7 +93,7 @@ const Toast = ({
       backgroundColor: toast.backgroundColor,
       animationDuration: `${duration + 500 + 'ms'}`
     }
-  }, React.createElement("img", {
+  }, _closeButton && React.createElement("img", {
     className: `${Style.toastclosebutton}`,
     src: close,
     alt: "close-button",

@@ -38,7 +38,9 @@ var Toast = function Toast(_ref) {
       title = _ref.title,
       description = _ref.description,
       position = _ref.position,
-      duration = _ref.duration;
+      duration = _ref.duration,
+      _ref$closeButton = _ref.closeButton,
+      closeButton = _ref$closeButton === void 0 ? false : _ref$closeButton;
 
   var _useState = React.useState([]),
       toast = _useState[0],
@@ -119,7 +121,7 @@ var Toast = function Toast(_ref) {
         backgroundColor: toast.backgroundColor,
         animationDuration: "" + (duration + 500 + 'ms')
       }
-    }, React__default.createElement("img", {
+    }, closeButton && React__default.createElement("img", {
       className: "" + Style.toastclosebutton,
       src: close,
       alt: "close-button",

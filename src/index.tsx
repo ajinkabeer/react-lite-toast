@@ -11,7 +11,8 @@ type Props = {
   title: string,
   description: string,
   position: string,
-  duration: number
+  duration: number,
+  closeButton: boolean
 }
 
 interface ToastProps {
@@ -22,7 +23,7 @@ interface ToastProps {
 }
 
 
-export const Toast = ({ type, title, description, position, duration }: Props): JSX.Element => {
+export const Toast = ({ type, title, description, position, duration, closeButton = false }: Props): JSX.Element => {
   const [toast, setToast] = useState<ToastProps[]>([])
 
   useEffect(() => {
@@ -79,7 +80,7 @@ export const Toast = ({ type, title, description, position, duration }: Props): 
             className={`${Style.toast} ${Style.toastsnack}  ${Style[position]}`}
             style={{ backgroundColor: toast.backgroundColor, animationDuration: `${duration + 500 + 'ms'}` }}
           >
-            <img className={`${Style.toastclosebutton}`} src={close} alt="close-button" onClick={() => closeToast(toast.title)} />
+            {closeButton && <img className={`${Style.toastclosebutton}`} src={close} alt="close-button" onClick={() => closeToast(toast.title)} />}
             <div className={`${Style.toastimage}`}>
               <img src={toast.icon} alt="" />
             </div>
