@@ -2,6 +2,7 @@
   "name": "react-lite-toast",
   "version": "1.0.3",
   "description": "A minimal toast notification for react",
+  "homepage": "https://ajin.dev/react-lite-toast-home/",
   "author": "ajinkabeer",
   "license": "MIT",
   "repository": "ajinkabeer/react-lite-toast",
