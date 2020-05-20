@@ -95,6 +95,8 @@ export default App;
 | description `string`               | Required: The content of the toast notification                    |
 | position: `string`                 | Required. One of `bottomup`, `topdown`, `topleft`, `topright`,`bottomleft`, `bottomright`          |
 | duration `number`                  | Required: The total time duration of toast. i.e, 1500              |
+| closeButton `boolean`              | Optional: default to false.                                        |
+
 
 
 ## Contributors

@@ -31,7 +31,7 @@ var warning = require("./warning~vKUgrCLp.svg");
 
 var close = require("./close~MmoXfehv.svg");
 
-var Style = {"toastcontainer":"_styles-module__toastcontainer__15L_e","toast":"_styles-module__toast__3KnTL","toasttitle":"_styles-module__toasttitle__2xY3H","toastdescription":"_styles-module__toastdescription__26QLJ","toastimage":"_styles-module__toastimage__MQjN0","toastsnack":"_styles-module__toastsnack__1NQVY","toastclosebutton":"_styles-module__toastclosebutton__3RsX7","topright":"_styles-module__topright__18X5b","animatefromright":"_styles-module__animatefromright__2Fqj2","bottomright":"_styles-module__bottomright__S5YOC","topleft":"_styles-module__topleft__3xLQ5","animatefromleft":"_styles-module__animatefromleft__2Gun4","bottomleft":"_styles-module__bottomleft__rqvi6","bottomup":"_styles-module__bottomup__2V_fh","animatefrombottom":"_styles-module__animatefrombottom__qwi-u","topdown":"_styles-module__topdown__1O4DU","animatefromtop":"_styles-module__animatefromtop__Smj_t"};
+var Style = {"toastcontainer":"_15L_e","toast":"_3KnTL","toasttitle":"_2xY3H","toastdescription":"_26QLJ","toastimage":"_MQjN0","toastsnack":"_1NQVY","toastclosebutton":"_3RsX7","topright":"_18X5b","animatefromright":"_2Fqj2","bottomright":"_S5YOC","topleft":"_3xLQ5","animatefromleft":"_2Gun4","bottomleft":"_rqvi6","bottomup":"_2V_fh","animatefrombottom":"_qwi-u","topdown":"_1O4DU","animatefromtop":"_Smj_t"};
 
 var Toast = function Toast(_ref) {
   var type = _ref.type,
