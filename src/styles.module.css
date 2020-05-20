@@ -59,7 +59,10 @@
 	height: 50px;
 	width: 275px;
 	color: #fff;
-	padding: 10px 15px 15px 10px;
+ 	padding-top:10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 30px;
 }
 
 .toastcontainer .toastclosebutton {

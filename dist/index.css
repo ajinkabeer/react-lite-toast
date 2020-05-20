@@ -1,11 +1,11 @@
-._15L_e {
+._styles-module__toastcontainer__15L_e {
 	font-size: 14px;
 	box-sizing: border-box;
 	position: fixed;
 	z-index: 999999;
 }
 
-._3KnTL {
+._styles-module__toast__3KnTL {
 	background: #fff;
 	transition:  ease;
 	position: relative;
@@ -20,12 +20,12 @@
 	background-repeat: no-repeat;
 }
 
-._3KnTL:hover {
+._styles-module__toast__3KnTL:hover {
 	opacity: .8;
 	cursor: pointer;
 }
 
-._2xY3H {
+._styles-module__toasttitle__2xY3H {
 	font-weight: 700;
 	font-size: 16px;
 	text-align: left;
@@ -35,7 +35,7 @@
 	height: 18px;
 }
 
-._26QLJ {
+._styles-module__toastdescription__26QLJ {
 	margin: 0;
 	text-align: left;
 	height: 18px;
@@ -45,24 +45,27 @@
 	white-space: nowrap;
 }
 
-._MQjN0 {
+._styles-module__toastimage__MQjN0 {
 	float: left;
 	margin-right: 15px;
 }
 
-._MQjN0 img {
+._styles-module__toastimage__MQjN0 img {
 	width: 25px;
 	height: 25px;
 }
 
-._1NQVY {
+._styles-module__toastsnack__1NQVY {
 	height: 50px;
 	width: 275px;
 	color: #fff;
-	padding: 10px 15px 15px 10px;
+ 	padding-top:10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 30px;
 }
 
-._15L_e ._3RsX7 {
+._styles-module__toastcontainer__15L_e ._styles-module__toastclosebutton__3RsX7 {
 	position: relative;
 	right: -.3em;
 	top: -.3em;
@@ -71,76 +74,76 @@
 	cursor: pointer;
 }
 
-._15L_e ._3RsX7:hover {
+._styles-module__toastcontainer__15L_e ._styles-module__toastclosebutton__3RsX7:hover {
 	transform: scale(.8);
 }
 
-._18X5b {
+._styles-module__topright__18X5b {
 	top: 17px;
 	right: 12px;
 	transition: transform .6s ease-in-out;
-	-webkit-animation: _2Fqj2;
-	        animation: _2Fqj2;
+	-webkit-animation: _styles-module__animatefromright__2Fqj2;
+	        animation: _styles-module__animatefromright__2Fqj2;
 	
 }
 
-._S5YOC {
+._styles-module__bottomright__S5YOC {
 	bottom: 17px;
 	right: 12px;
 	transition: transform .6s ease-in-out;
-	-webkit-animation: _2Fqj2;
-	        animation: _2Fqj2;
+	-webkit-animation: _styles-module__animatefromright__2Fqj2;
+	        animation: _styles-module__animatefromright__2Fqj2;
 	
 
 }
 
-._3xLQ5 {
+._styles-module__topleft__3xLQ5 {
 	top: 17px;
 	left: 12px;
 	transition: transform .6s ease-in-out;
-	-webkit-animation: _2Gun4;
-	        animation: _2Gun4;
+	-webkit-animation: _styles-module__animatefromleft__2Gun4;
+	        animation: _styles-module__animatefromleft__2Gun4;
 	
 
 }
 
-._rqvi6 {
+._styles-module__bottomleft__rqvi6 {
 	bottom: 17px;
 	left: 12px;
 	transition: transform .6s ease-in-out;
-	-webkit-animation: _2Gun4;
-	        animation: _2Gun4;
+	-webkit-animation: _styles-module__animatefromleft__2Gun4;
+	        animation: _styles-module__animatefromleft__2Gun4;
 	
 
 }
 
-._2V_fh {
+._styles-module__bottomup__2V_fh {
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	transition: transform .6s ease-in-out;
-	-webkit-animation: _qwi-u;
-	        animation: _qwi-u;
+	-webkit-animation: _styles-module__animatefrombottom__qwi-u;
+	        animation: _styles-module__animatefrombottom__qwi-u;
 	
 
 }
 
-._1O4DU {
+._styles-module__topdown__1O4DU {
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
 	right: 0;
 	top: 0;
 	transition: transform .6s ease-in-out;
-	-webkit-animation: _Smj_t;
-	        animation: _Smj_t;
+	-webkit-animation: _styles-module__animatefromtop__Smj_t;
+	        animation: _styles-module__animatefromtop__Smj_t;
 	
 
 }
 
-@-webkit-keyframes _2Fqj2 {
+@-webkit-keyframes _styles-module__animatefromright__2Fqj2 {
 	0% {
 		transform: translateX(100%);
 	}
@@ -158,7 +161,7 @@
 	}
 }
 
-@keyframes _2Fqj2 {
+@keyframes _styles-module__animatefromright__2Fqj2 {
 	0% {
 		transform: translateX(100%);
 	}
@@ -176,7 +179,7 @@
 	}
 }
 
-@-webkit-keyframes _2Gun4 {
+@-webkit-keyframes _styles-module__animatefromleft__2Gun4 {
 	0% {
 		transform: translateX(-100%);
 	}
@@ -194,7 +197,7 @@
 	}
 }
 
-@keyframes _2Gun4 {
+@keyframes _styles-module__animatefromleft__2Gun4 {
 	0% {
 		transform: translateX(-100%);
 	}
@@ -212,7 +215,7 @@
 	}
 }
 
-@-webkit-keyframes _qwi-u {
+@-webkit-keyframes _styles-module__animatefrombottom__qwi-u {
 	0% {
 		transform: translateY(100%);
 	}
@@ -230,7 +233,7 @@
 	}
 }
 
-@keyframes _qwi-u {
+@keyframes _styles-module__animatefrombottom__qwi-u {
 	0% {
 		transform: translateY(100%);
 	}
@@ -248,7 +251,7 @@
 	}
 }
 
-@-webkit-keyframes _Smj_t {
+@-webkit-keyframes _styles-module__animatefromtop__Smj_t {
 	0% {
 		transform: translateY(-100%);
 	}
@@ -266,7 +269,7 @@
 	}
 }
 
-@keyframes _Smj_t {
+@keyframes _styles-module__animatefromtop__Smj_t {
 	0% {
 		transform: translateY(-100%);
 	}
