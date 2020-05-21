@@ -1,7 +1,7 @@
 {
   "name": "react-lite-toast",
   "version": "1.0.6",
-  "description": "A minimal toast notification for react",
+  "description": "A minimal and lite toast notification for react",
   "homepage": "https://ajin.dev/react-lite-toast-home/",
   "author": "ajinkabeer",
   "license": "MIT",

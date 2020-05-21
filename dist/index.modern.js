@@ -6,7 +6,7 @@ var error = require("./error~oAuuRnLQ.svg");
 
 var info = require("./info~YHVUvgRi.svg");
 
-var warning = require("./warning~LrCINTNk.svg");
+var warning = require("./warning~kxHVRSgn.svg");
 
 var close = require("./close~CpoGlLRi.svg");
 

@@ -1,11 +1,11 @@
 <div align="center">
 
-# react-lite-toast [![NPM](https://img.shields.io/npm/v/react-lite-toast.svg)](https://www.npmjs.com/package/react-lite-toast) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-![Alt text](assets/bundleSize.PNG "bundle-size") 
+# react-lite-toast ⚡
+[![NPM](https://img.shields.io/npm/v/react-lite-toast.svg)](https://www.npmjs.com/package/react-lite-toast) ![NPM](https://img.shields.io/npm/dm/react-lite-toast.svg?label=%E2%8F%ACdownloads) ![NPM](https://img.shields.io/npm/l/react-lite-toast) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) ![NPM](https://img.shields.io/github/last-commit/ajinkabeer/react-lite-toast) ![NPM](https://img.shields.io/github/stars/ajinkabeer/react-lite-toast?style=social)
 
 </div>
 
-A minimal toast notification for react with a bundled size of 3 kB ⚡.
+A minimal and lite toast notification for react ⚡.
 
 [Live Demo](https://ajin.dev/react-lite-toast-home/)
  
