@@ -23,11 +23,11 @@ function _extends() {
 
 var done = require("./check~YAqNKjRx.svg");
 
-var error = require("./error~oAuuRnLQ.svg");
+var error = require("./error~zjOHyWYD.svg");
 
-var info = require("./info~YHVUvgRi.svg");
+var info = require("./info~sjcFLtKK.svg");
 
-var warning = require("./warning~kxHVRSgn.svg");
+var warning = require("./warning~hSZlsaWd.svg");
 
 var close = require("./close~CpoGlLRi.svg");
 
