@@ -7,7 +7,7 @@
 
 A minimal and lite toast notification for react ⚡.
 
-[Live Demo](https://ajin.dev/react-lite-toast-home/)
+[Live Demo](https://ajinkabeer.github.io/react-lite-toast-home/)
  
 ## UI
 <div align="center">
